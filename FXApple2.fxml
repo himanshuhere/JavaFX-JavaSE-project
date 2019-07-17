@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="apple2" prefHeight="407.0" prefWidth="571.0" style="-fx-background-color: #242424;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXgadgetreview.FXApple2Controller">
+   <children>
+      <Button fx:id="crossapp2_btn" contentDisplay="CENTER" layoutX="543.0" layoutY="1.0" minWidth="47.0" mnemonicParsing="false" onAction="#crossapp1Action" prefHeight="36.0" prefWidth="54.0" style="-fx-font-weight: bold; -fx-font-size: 16px; -fx-background-color: #3b2627; -fx-text-fill: #ffffff;" text="X" />
+      <AnchorPane layoutX="36.0" layoutY="-1.0" prefHeight="237.0" prefWidth="296.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow color="#000000ca" height="98.09" radius="37.4275" spread="0.07" width="53.62" />
+         </effect>
+         <children>
+            <ImageView fitHeight="205.0" fitWidth="215.0" layoutX="46.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/apple2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="36.0" layoutY="250.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 22px;" text="Apple AirPod">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="36.0" layoutY="285.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="Designed by Apple. Automatically on, automatically connectedOne-tap setup for all your" />
+      <Label layoutX="36.0" layoutY="303.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text=" Apple devices(. Quick access to Siri with a double-tapMore than 24-hour battery life with" />
+      <Label layoutX="36.0" layoutY="321.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="Charging Case. Charges quickly in the caseRich, high-quality audio and voice" />
+      <Label layoutX="36.0" layoutY="339.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="Seamless switching between devices" />
+      <Button fx:id="nextapp2_btn" layoutX="473.0" layoutY="357.0" mnemonicParsing="false" onAction="#nextapp2Action" prefHeight="32.0" prefWidth="105.0" style="-fx-font-size: 14px; -fx-background-color: #3b2627; -fx-text-fill: #ffffff;" text="Next" />
+      <Label layoutX="347.0" layoutY="85.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: lightgreen; -fx-font-weight: bold; -fx-font-size: 19px;" text="Price : $159.00">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="347.0" layoutY="126.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 16px;" text="Available : Yes">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Button fx:id="previousapp2_btn" layoutX="355.0" layoutY="357.0" mnemonicParsing="false" onAction="#previousapp2Action" prefHeight="32.0" prefWidth="105.0" style="-fx-font-size: 14px; -fx-background-color: #3b2627; -fx-text-fill: #ffffff;" text="Previous" />
+   </children>
+</AnchorPane>

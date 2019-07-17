@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="571.0" style="-fx-background-color: #242424;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXgadgetreview.FXApple3Controller">
+   <children>
+      <Button fx:id="crossapp3_btn" contentDisplay="CENTER" layoutX="518.0" layoutY="1.0" minWidth="47.0" mnemonicParsing="false" onAction="#crossapp3Action" prefHeight="36.0" prefWidth="54.0" style="-fx-font-weight: bold; -fx-font-size: 16px; -fx-background-color: #3b2627; -fx-text-fill: white;" text="X" />
+      <AnchorPane layoutX="36.0" layoutY="-1.0" prefHeight="237.0" prefWidth="296.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow color="#000000ca" height="98.09" radius="37.4275" spread="0.07" width="53.62" />
+         </effect>
+         <children>
+            <ImageView fitHeight="191.0" fitWidth="171.0" layoutX="66.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/apple3.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="36.0" layoutY="250.0" prefHeight="32.0" prefWidth="243.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 22px;" text="Apple Watch Series 3">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="36.0" layoutY="285.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="Monitor your health. Track your workouts. Get the motivation you need " />
+      <Label layoutX="36.0" layoutY="303.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="to achieve your fitness goals. And stay connected to the people and information " />
+      <Label layoutX="36.0" layoutY="321.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="you care about. With Apple Watch Series 3, you can do it all" />
+      <Label layoutX="36.0" layoutY="339.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="from your wrist." />
+      <Button fx:id="previousapp3_btn" layoutX="413.0" layoutY="357.0" mnemonicParsing="false" onAction="#previousapp3Action" prefHeight="32.0" prefWidth="105.0" style="-fx-background-color: #3b2627; -fx-text-fill: #ffffff; -fx-font-family: system; -fx-font-size: 12px;" text="Previous" />
+      <Label layoutX="347.0" layoutY="85.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: lightgreen; -fx-font-weight: bold; -fx-font-size: 19px;" text="Price : $399.59">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="347.0" layoutY="126.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 16px;" text="Available : Yes">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

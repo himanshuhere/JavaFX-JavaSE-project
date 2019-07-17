@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane_con_app1" prefHeight="407.0" prefWidth="571.0" style="-fx-background-color: #242424;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXgadgetreview.FXApple1Controller">
+   <children>
+      <Button fx:id="crossapp1_btn" contentDisplay="CENTER" layoutX="502.0" layoutY="14.0" minWidth="47.0" mnemonicParsing="false" onAction="#crossapp1Action" prefHeight="36.0" prefWidth="54.0" style="-fx-font-weight: bold; -fx-font-size: 16px; -fx-background-color: #3b2627; -fx-text-fill: #ffffff;" text="X" />
+      <AnchorPane layoutX="36.0" layoutY="-1.0" prefHeight="237.0" prefWidth="296.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow color="#000000ca" height="98.09" radius="37.4275" spread="0.07" width="53.62" />
+         </effect>
+         <children>
+            <ImageView fitHeight="233.0" fitWidth="269.0" layoutX="23.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/apple1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="36.0" layoutY="250.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 22px;" text="Apple TV 4K">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="36.0" layoutY="285.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="Apple TV 4K lets you watch movies and shows in amazing 4K HDR — and now it completes " />
+      <Label layoutX="36.0" layoutY="303.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="sound from Dolby Atmos.1 It streams your favorite channels live. Has great content from" />
+      <Label layoutX="36.0" layoutY="321.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="apps like Netflix, Amazon Prime Video, and ESPN.2 And thanks to Siri, you can control it" />
+      <Label layoutX="36.0" layoutY="339.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="all with just your voice." />
+      <Button fx:id="next_app1_btn" layoutX="413.0" layoutY="357.0" mnemonicParsing="false" onAction="#nextapp1Action" prefHeight="32.0" prefWidth="105.0" style="-fx-background-color: #3b2627; -fx-text-fill: #ffffff; -fx-font-family: system; -fx-font-size: 12px;" text="Next" />
+      <Label layoutX="347.0" layoutY="85.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: lightgreen; -fx-font-weight: bold; -fx-font-size: 19px;" text="Price : $179.99">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="347.0" layoutY="126.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 16px;" text="Available : Yes">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

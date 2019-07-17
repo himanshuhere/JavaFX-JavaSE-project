@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXgadgetreview.FXcontactusController">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #262626;">
+         <children>
+            <Label layoutX="305.0" layoutY="116.0" opacity="0.88" prefHeight="56.0" prefWidth="270.0" style="-fx-text-fill: white; -fx-font-size: 24px; -fx-font-family: system;" text="Gadget Reviewer" />
+            <Label layoutX="347.0" layoutY="179.0" opacity="0.93" prefHeight="26.0" prefWidth="287.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold;" text="Contact Us" />
+            <Label layoutX="234.0" layoutY="235.0" opacity="0.8" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 14px; -fx-text-fill: skyblue; -fx-font-weight: bold;" text="Visit us/Call :" />
+            <Label layoutX="211.0" layoutY="266.0" opacity="0.83" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" text="www.gadget-reviewer.com" />
+            <Label layoutX="221.0" layoutY="286.0" opacity="0.91" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" text="+91-7509250831" />
+            <Line endX="165.0" layoutX="372.0" layoutY="169.0" opacity="0.23" startX="-123.0" stroke="WHITE" />
+            <Label layoutX="333.0" layoutY="351.0" opacity="0.78" prefHeight="17.0" prefWidth="316.0" style="-fx-font-family: system; -fx-font-size: 12px; -fx-text-fill: skyblue;" text="Bhopal, Madhya Pradesh" textFill="WHITE" />
+            <ImageView fitHeight="56.0" fitWidth="49.0" layoutX="379.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/hs.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="463.0" layoutY="235.0" opacity="0.8" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-text-fill: skyblue;" text="On web/social :" />
+            <Label layoutX="447.0" layoutY="266.0" opacity="0.83" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" text="twitter/himanshusoni3105" />
+            <Label layoutX="454.0" layoutY="283.0" opacity="0.91" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" text="github/himanshuhere" />
+            <Label layoutX="307.0" layoutY="429.0" opacity="0.57" prefHeight="17.0" prefWidth="316.0" style="-fx-font-family: system; -fx-font-size: 12px;" text="Developed by Himanshu Soni | 2018" textFill="WHITE" />
+            <Label layoutX="297.0" layoutY="364.0" opacity="0.78" prefHeight="17.0" prefWidth="316.0" style="-fx-font-family: system; -fx-font-size: 12px; -fx-text-fill: skyblue;" text="mail : himanshusoni3105@outllook.com" textFill="WHITE" />
+            <AnchorPane prefHeight="63.0" prefWidth="800.0" style="-fx-background-color: #3b2627;">
+               <children>
+                  <Button fx:id="home_btn" layoutX="685.0" layoutY="19.0" mnemonicParsing="false" onAction="#homeAction" prefHeight="32.0" prefWidth="82.0" style="-fx-background-color: #242424; -fx-text-fill: #fff;" text="Home" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXgadgetreview.FXloginController">
+   <children>
+      <AnchorPane layoutX="286.0" prefHeight="450.0" prefWidth="514.0" style="-fx-background-color: #3B2627;">
+         <children>
+            <AnchorPane layoutX="54.0" layoutY="90.0" opacity="0.49" prefHeight="270.0" prefWidth="432.0" style="-fx-background-color: #cc0000;">
+               <children>
+                  <PasswordField fx:id="password" layoutX="90.0" layoutY="132.0" prefHeight="26.0" prefWidth="253.0" />
+                  <Button fx:id="signin_btn" layoutX="109.0" layoutY="183.0" mnemonicParsing="false" onAction="#signinAction" prefHeight="36.0" prefWidth="214.0" style="-fx-font-family: system; -fx-background-color: #00264d; -fx-text-fill: white;" text="Sign In">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Hyperlink fx:id="forgotpassword" layoutX="159.0" layoutY="232.0" style="-fx-font-family: system;" text="Forgot Password?" textFill="WHITE" />
+                  <TextField fx:id="username" layoutX="93.0" layoutY="65.0" prefHeight="26.0" prefWidth="253.0" />
+                  <Label layoutX="91.0" layoutY="38.0" opacity="0.86" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" text="username/email" />
+                  <Label layoutX="90.0" layoutY="104.0" opacity="0.86" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" text="password" />
+                  <Label fx:id="warninglabel" layoutX="133.0" layoutY="14.0" opacity="0.86" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" />
+               </children>
+            </AnchorPane>
+            <Label layoutX="232.0" layoutY="40.0" opacity="0.77" prefHeight="38.0" prefWidth="75.0" text="Sign In" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="cross" layoutX="464.0" mnemonicParsing="false" onAction="#closeApp" opacity="0.0" prefHeight="23.0" prefWidth="25.0" text="X" textFill="RED">
+               <font>
+                  <Font name="Century Gothic" size="22.0" />
+               </font>
+            </Button>
+            <Label layoutX="492.0" layoutY="1.0" text="X" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="450.0" prefWidth="287.0" style="-fx-background-color: #262626;">
+         <children>
+            <Label layoutX="23.0" layoutY="160.0" opacity="0.88" prefHeight="28.0" prefWidth="188.0" style="-fx-text-fill: white; -fx-font-size: 24px; -fx-font-family: system;" text="Gadget Reviewer" />
+            <Label layoutX="23.0" layoutY="133.0" opacity="0.51" prefHeight="18.0" prefWidth="115.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 17px;" text="Welcome to" />
+            <Button fx:id="signup_btn" layoutX="58.0" layoutY="294.0" mnemonicParsing="false" onAction="#signupAction" prefHeight="36.0" prefWidth="160.0" style="-fx-background-color: #9c2827; -fx-font-family: system; -fx-text-fill: white;" text="Sign Up">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label layoutX="23.0" layoutY="195.0" opacity="0.34" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" text="Here you can review and can" />
+            <Label layoutX="23.0" layoutY="211.0" opacity="0.34" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" text="compare the gadgets with" />
+            <Label layoutX="23.0" layoutY="228.0" opacity="0.34" prefHeight="28.0" prefWidth="173.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-size: 12px;" text="their specifications and price." />
+            <Button fx:id="home2" layoutX="-3.0" layoutY="1.0" mnemonicParsing="false" onAction="#homeYAction" prefHeight="35.0" prefWidth="75.0" style="-fx-background-color: #3b2627; -fx-text-fill: white;" text="HOME" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

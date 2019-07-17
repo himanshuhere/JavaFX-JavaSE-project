@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXgadgetreview.FXSamsung1Controller">
+ 
+   <children>
+      <Button fx:id="crosssam2_btn" contentDisplay="CENTER" layoutX="532.0" layoutY="14.0" minWidth="47.0" mnemonicParsing="false" onAction="#crosssam1Action" prefHeight="36.0" prefWidth="54.0" style="-fx-font-weight: bold; -fx-font-size: 16px; -fx-background-color: #3b2627; -fx-text-fill: #ffffff;" text="X" />
+      <AnchorPane layoutX="36.0" layoutY="-1.0" prefHeight="237.0" prefWidth="296.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow color="#000000ca" height="98.09" radius="37.4275" spread="0.07" width="53.62" />
+         </effect>
+         <children>
+            <ImageView fitHeight="148.0" fitWidth="209.0" layoutX="65.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/samsung2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="36.0" layoutY="250.0" prefHeight="32.0" prefWidth="222.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 22px;" text="Samsung Gear VR">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="36.0" layoutY="285.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="While you're journeying through uncharted lands" />
+      <Label layoutX="36.0" layoutY="303.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="the strap keeps the Gear VR securely on and the foam cushioning helps prevent " />
+      <Label layoutX="36.0" layoutY="321.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="oo much light from seeping inoo much light from seeping in." />
+      <Label layoutX="36.0" layoutY="339.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="Use the Gear VR controller as a remote control to navigate your virtual reality." />
+      <Button fx:id="nextsam1_btn" layoutX="473.0" layoutY="357.0" mnemonicParsing="false" onAction="#nextsam1Action" prefHeight="32.0" prefWidth="105.0" style="-fx-font-size: 14px; -fx-background-color: #3b2627; -fx-text-fill: #ffffff;" text="Next" />
+      <Label layoutX="347.0" layoutY="85.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: lightgreen; -fx-font-weight: bold; -fx-font-size: 19px;" text="Price : $182.25">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="347.0" layoutY="126.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 16px;" text="Available : Yes">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

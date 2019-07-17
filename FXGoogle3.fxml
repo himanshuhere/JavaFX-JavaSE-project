@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="571.0" style="-fx-background-color: #242424;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXgadgetreview.FXGoogle3Controller">
+   <children>
+      <Button fx:id="crossgoo3_btn" contentDisplay="CENTER" layoutX="518.0" layoutY="1.0" minWidth="47.0" mnemonicParsing="false" onAction="#crossgoo3Action" prefHeight="36.0" prefWidth="54.0" style="-fx-font-weight: bold; -fx-font-size: 16px; -fx-background-color: #3b2627; -fx-text-fill: white;" text="X" />
+      <AnchorPane layoutX="36.0" layoutY="-1.0" prefHeight="237.0" prefWidth="296.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow color="#000000ca" height="98.09" radius="37.4275" spread="0.07" width="53.62" />
+         </effect>
+         <children>
+            <ImageView fitHeight="197.0" fitWidth="272.0" layoutX="11.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/google3.jpg" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="36.0" layoutY="250.0" prefHeight="32.0" prefWidth="243.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 22px;" text="Google Daydream VR">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="36.0" layoutY="285.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="VR headsets that are comfortable, not cumbersome. Unleash your " />
+      <Label layoutX="36.0" layoutY="303.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="creativity and share your virtual reality experience with your friends " />
+      <Label layoutX="36.0" layoutY="321.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" text="by connecting Daydream View to your Chromecast-enabled TV." />
+      <Label layoutX="36.0" layoutY="339.0" opacity="0.89" prefHeight="18.0" prefWidth="493.0" style="-fx-text-fill: white; -fx-font-family: system; -fx-font-size: 12px;" />
+      <Button fx:id="previousgoo3_btn" layoutX="413.0" layoutY="357.0" mnemonicParsing="false" onAction="#previousgoo3Action" prefHeight="32.0" prefWidth="105.0" style="-fx-background-color: #3b2627; -fx-text-fill: #ffffff; -fx-font-family: system; -fx-font-size: 12px;" text="Previous" />
+      <Label layoutX="347.0" layoutY="85.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: lightgreen; -fx-font-weight: bold; -fx-font-size: 19px;" text="Price : $139.00">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+      <Label layoutX="347.0" layoutY="126.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 16px;" text="Available : Yes">
+         <effect>
+            <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
