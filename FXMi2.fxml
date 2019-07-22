@@ -36,6 +36,7 @@
       <Label layoutX="347.0" layoutY="85.0" prefHeight="18.0" prefWidth="171.0" style="-fx-font-family: system; -fx-text-fill: lightgreen; -fx-font-weight: bold; -fx-font-size: 19px;" text="Price : $185.00">
          <effect>
            
+           
             <DropShadow color="#000000de" height="68.45" radius="32.2425" width="62.52" />
          </effect>
       </Label>
